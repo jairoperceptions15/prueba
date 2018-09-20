@@ -7,6 +7,7 @@ src: url(../fonts/DancingScript-Regular.ttf) format("truetype");
 * {
 font-family: "Dancing Script";
 }
+
 .flex-container{
     width:100%;
     max-width:1366px;   
@@ -47,12 +48,12 @@ header ul{
     align-items: center ;
     align-content: space-around;
 }
-#galeria{
-  width:100%;
-  max-width:1366px;
-  min-width:220px;
-  display: flex;
-  flex-flow: row wrap;
+#main {
+    width:150px;
+    height: 150px;
+    border:1px solid black;
+    display: flex;   
+    flex-flow:row wrap;
 }
 /* Items de los contenedores flex */
 header{
